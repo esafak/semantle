@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "packages": {
+    "cligen": {
+      "version": "1.8.6",
+      "vcsRevision": "b45a7d00e42ec7b353b9d7f3c8f669fb3c2b6d66",
+      "url": "https://github.com/c-blake/cligen.git",
+      "downloadMethod": "git",
+      "dependencies": [],
+      "checksums": {
+        "sha1": "b2e30e3ade57c60c939bfd673cd4d124e600c7ed"
+      }
+    },
+    "jsony": {
+      "version": "1.1.5",
+      "vcsRevision": "ea811bec7fa50f5abd3088ba94cda74285e93f18",
+      "url": "https://github.com/treeform/jsony",
+      "downloadMethod": "git",
+      "dependencies": [],
+      "checksums": {
+        "sha1": "6aeb83e7481ca8686396a568096054bc668294df"
+      }
+    },
+    "seance": {
+      "version": "0.3.4",
+      "vcsRevision": "1faeac26bbbd2939ab64ab1fc5f2bc4835977eff",
+      "url": "https://github.com/esafak/seance",
+      "downloadMethod": "git",
+      "dependencies": [
+        "cligen",
+        "jsony"
+      ],
+      "checksums": {
+        "sha1": "98df51e23c8a625e83114841541e0d786bec9e7f"
+      }
+    },
+    "yaml": {
+      "version": "2.2.0",
+      "vcsRevision": "9e43c0ab26381889a3d932b1e811def60f7408e1",
+      "url": "https://github.com/flyx/NimYAML",
+      "downloadMethod": "git",
+      "dependencies": [],
+      "checksums": {
+        "sha1": "1f85746f3c7e692f8814296c7aff786e2b7dbf5e"
+      }
+    }
+  },
+  "tasks": {}
+}

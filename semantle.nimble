@@ -11,4 +11,7 @@ bin           = @["semantle"]
 
 # Dependencies
 
-requires "nim >= 2.0"
+# requires "nim >= 2.0"
+requires "cligen"
+requires "seance >= 0.3.4"
+requires "yaml"
